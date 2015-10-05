@@ -1,0 +1,64 @@
+body {
+    background: url("images/background/39c11dbf.png");
+    min-width: 960px;
+    margin: 0px;
+}
+
+head {}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    background: url("images/background/12f182ac.png");
+    color: #669900;
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    
+    bottom: 0;
+    width: 100%;
+}
+
+nav {
+    background: url("images/background/12f182ac.png");
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    margin:0;
+     padding:0;
+}
+
+nav ul li {
+    float: left;
+    padding: 0px 25px;
+    font-size: 17px;
+    height:25px;
+    top:0;
+    margin:0;
+   
+}
+nav a {
+        color: white;
+        text-decoration: none;
+        margin:0;
+         padding:0;
+}
+
+article {
+    background: url("images/background/e143453c.png");
+    /*background: rgba(255, 255, 255, 0.6) none repeat scroll 0 0;*/
+}
+header {
+    
+}
+selection {
+    margin-top:100px;
+}
