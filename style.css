@@ -1,62 +1,39 @@
 body {
-    background: url("images/background/green.png") #00B800;
+    background: url("images/background/green.png");
+    margin: 0px;
+    min-width: 960px;
 }
 
-.nadpis {
-    font-family: 'Supermercado One', cursive;
-    color: Black;
+h1 {
+    color: #fff;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+    font: 80px 'ChunkFiveRegular';
+    text-align:center;
+}
+
+header {
+    margin-bottom: 28px;
+}
+
+p {
     text-align: center;
-    text-shadow: 0 0 4px white, 0 -2px 4px #ff3, 2px -5px 6px #fd3, -2px -7px 11px #f80, 2px -13px 15px #f20;
-    height: 5%;
-    position: fixed;
-    width: 100%;
 }
-
-article {
-    margin-top: 5%;
-    margin-left: 20%;
-    background: url("images/background/e143453c.png");
-    padding-left: 5%;
-    padding-right: 5%;
-    border-radius: 10px;
-    width:60%;
-    height:80%;
-    position:fixed;
-    overflow:auto;
+nav ul li {
+        float: left;
+        padding: 0px 25px;
+        margin: 0 5px;
+        font-size: 17px;
+        height: 73px;
+        line-height: 4.3em;
 }
-
-nav {
-    background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
-    margin-top: 0%;
-    width: 18%;
-    float: left;
-    height: 85%;
-    position: fixed;
-    border-radius: 10px;
-}
-
 nav ul {
-    list-style-type: none;
-    line-height:200%;
+        margin: 0px;
+        list-style-type: none;
 }
-
-nav a {
-    color: white;
-    text-decoration: none;
-    
+nav ul li:hover, .aktivni {
+        background: #ffbb00;
+        box-shadow: 0px 0px 5px black;
 }
-
-footer {
-    height: 10%;
-    width: 100%;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
-}
-
-nav ul li:hover,
-.aktivni {
-    background: #ffbb00;
-    box-shadow: 0px 0px 5px black;
+nav {
+    width:100;
 }
